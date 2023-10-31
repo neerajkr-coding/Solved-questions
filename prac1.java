@@ -1,4 +1,8 @@
+package practice;
 
+import java.util.Scanner;
+
+public class prac1 {
 	
 	public static void findOccurance(String main,String str) {
 		
@@ -24,4 +28,12 @@
 		System.out.println(count);	
 	}
 
-	
+	public static void main(String[] args) {
+		String str = "neere";
+//		String str1 = str+" "; FOR CASE-TO FIND NUMBER OF TIME FULL WORD OCCUR
+		
+		String main = "i am neere neere aneerej and neere naj";
+		findOccurance(main,str);
+	}
+
+}
