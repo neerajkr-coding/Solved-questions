@@ -1,0 +1,15 @@
+class Solution {
+    int isPanagram(String S) {
+        
+        
+        S = S.toLowerCase();
+        
+        for(char i = 'a';i<='z';i++){
+            if(S.indexOf(i)==-1){
+                return 0;
+            }
+        }
+        
+        return 1;
+    }
+};
